@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Varun's Fitness</title>
+  <link rel="stylesheet" href="project.css">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0px;
+      padding: 0px;
+      background: url('/gym1.jpg');
+      height: 1200px;
+      background-repeat: no-repeat;
+      color: whitesmoke;
+      width: 100%px;
+    }
+
+    .left img {
+      width: 100px;
+      height: 54px;
+      margin: 0px auto;
+
+    }
+
+    .left {
+      display: inline-block;
+      /*border:2px solid red;*/
+      position: absolute;
+      left: 0px;
+      top: 10px;
+      color: rgba(255, 255, 255, 0.833);
+      font-weight: bolder;
+      text-align: center;
+      font-size: 23px;
+    }
+
+    .mid {
+      position: sticky;
+      color: white;
+      display: block;
+      margin: 12px auto;
+      width: 37%;
+      /*border:2px solid rgb(29, 174, 0);*/
+
+    }
+
+    .right {
+      position: fixed;
+      right: 12px;
+      top: 20px;
+      display: inline-block;
+      /* border:2px solid rgb(0, 4, 255);
+*/
+    }
+
+    .navbar {
+      display: inline-block;
+    }
+
+    .navbar li {
+      display: inline-block;
+      font-size: 24px;
+
+    }
+
+    .navbar li a {
+      padding: 8px 8px;
+      color: rgb(255, 243, 243);
+      text-decoration: none;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+      text-decoration: underline;
+      color: gray;
+
+
+    }
+
+    .butt {
+      background-color: aliceblue;
+      color: black;
+      border: 2px solid rgb(99, 85, 85);
+      padding: 4px 14px;
+      border-radius: 4px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .container {
+      border: 2px solid rgb(255, 255, 255);
+      margin: 35px;
+      padding: 56px;
+      width: 33%;
+      border-radius: 13px;
+    }
+
+    .form-group {
+      font-size: 25px;
+      margin: 10px auto;
+      text-align: center;
+      display: block;
+      width: 39%;
+      height: 14px;
+      padding: 1px;
+
+    }
+
+    .container h2 {
+      text-align: center;
+      margin: 10px auto;
+    }
+
+    .container button {
+      display: block;
+      text-align: center;
+      margin: 10px auto;
+    }
+    .sec{
+      display: block;
+      margin-top: 310px;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      background-image: url('/bg.jpg');
+      width: 100%;
+      height: 500px;
+    }
+    .sec h1{
+      color: aliceblue;
+      width: 33%;
+      margin: 10px auto;
+    }
+    .sec p{
+      color: aliceblue;
+      width: 33%;
+      margin: 36px 429px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <div class="left">
+      <img src="/icon.png" alt="sheer" width="100%">
+      <div>Varun's Fitness</div>
+
+
+    </div>
+    <div class="mid">
+      <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <button class="butt">Call us Now</button>
+      <button class="butt">Email us</button>
+    </div>
+
+  </header>
+  <div class="container">
+    <h2>Join are fitness group</h2>
+
+    <form action="noaction.php">
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Age">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Address">
+      </div>
+      <div class="form-group">
+        <input class="last" type="text" placeholder="Enter your Gender">
+      </div>
+    </form>
+    <button class="butt">Submit</button>
+  </div>
+  <script src="project.js"></script>
+  <section>
+    <div class="sec">
+     
+      <h1>More Details 
+
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium vel obcaecati veniam reprehenderit aspernatur consectetur ex libero repudiandae accusantium, vitae veritatis, natus, ad perferendis itaque placeat commodi rerum officia excepturi.s
+      </p>
+    </div>
+  </section>
+</body>
+
+</html>
